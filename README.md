@@ -17,7 +17,7 @@ In VScode:
 
 1. `git clone https://github.com/JiaheEatingOut/expectfirst`
 2. `cd expectfirst`
-3. `LINTER_FOLDER=<LINTER_FOLDER> make install`
+3. `make build`
 4. `go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.52.2`
    (Install golangci-lint and custom linter locally, so that they are compile with the exact same stack, it's related to how Go plugins work.)
 5. Add the below configs to your project `.golingci.yml`
